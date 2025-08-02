@@ -1,0 +1,3 @@
+User-agent 
+Allow 
+Sitemap httpsmdhdj.github.ioDogs-of-Loyaltysitemap.xml
