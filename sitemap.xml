@@ -6,7 +6,19 @@
     <loc>https://mdhdj.github.io/Dogs-of-Loyalty/</loc>
     <priority>1.0</priority>
   </url>
-  
+
+  <url>
+  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product1.html</loc>
+</url>
+
+<url>
+  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product2.html</loc>
+</url>
+
+<url>
+  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product3.html</loc>
+</url>
+
   <url>
     <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story1.html</loc>
   </url>
