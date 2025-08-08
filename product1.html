@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secrets to Dog Training | Dogs of Loyalty</title>
     <meta name="description" content="Master the art of positive reinforcement with this comprehensive guide developed by certified trainers with 20+ years of experience.">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -25,12 +27,15 @@
                 <li><a href="index.html#stories">Stories</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=800&q=85" 
+        <img src="https://images.pexels.com/photos/14603057/pexels-photo-14603057.jpeg" 
              alt="Professional dog trainer with obedient dog" 
              class="hero-image">
         <div class="hero-content">
@@ -188,6 +193,12 @@
                 <div class="footer-column">
                     <h3>Dogs of Loyalty</h3>
                     <p style="color: #E5E5E5; margin-top: var(--spacing-md);">Celebrating the extraordinary bond between humans and dogs through inspiring true stories and proven training methods.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
                 
                 <div class="footer-column">
@@ -206,7 +217,7 @@
                         <li><a href="story1.html">The Hospital Vigil</a></li>
                         <li><a href="story2.html">Mountain Hero</a></li>
                         <li><a href="story3.html">Healing Hearts</a></li>
-                        <li><a href="story4.html">Guardian Angel</a></li>
+                        <li><a href="story8.html">Beach Guardian</a></li>
                     </ul>
                 </div>
                 
@@ -226,5 +237,34 @@
             </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Guardian: Sandy's Ocean Rescue | Dogs of Loyalty</title>
+    <meta name="description" content="When a riptide pulled a young swimmer away from shore, a Newfoundland's lifeguard training and incredible strength turned a tragedy into a miracle.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .story-hero {
+            position: relative;
+            height: 60vh;
+            min-height: 400px;
+            overflow: hidden;
+        }
+        
+        .story-hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .story-hero-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: var(--spacing-xl);
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .story-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) 0;
+        }
+        
+        .story-image {
+            width: 100%;
+            border-radius: var(--border-radius);
+            margin: var(--spacing-lg) 0;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .story-quote {
+            background-color: var(--light-bg);
+            border-left: 4px solid var(--primary);
+            padding: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+            border-radius: var(--border-radius);
+            font-style: italic;
+        }
+        
+        .related-stories {
+            margin-top: var(--spacing-xxl);
+            padding-top: var(--spacing-xl);
+            border-top: 1px solid #eee;
+        }
+        
+        .story-navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: var(--spacing-xl);
+        }
+        
+        .story-nav-btn {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .story-nav-btn:hover {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C9.243 2 7 4.243 7 7C7 9.757 9.243 12 12 12C14.757 12 17 9.757 17 7C17 4.243 14.757 2 12 2ZM12 9C10.343 9 9 8.157 9 7C9 5.843 10.343 5 12 5C13.657 5 15 5.843 15 7C15 8.157 13.657 9 12 9Z" fill="#8B4513"/>
+                    <path d="M20 13H4C3.46957 13 2.96086 13.2107 2.58579 13.5858C2.21071 13.9609 2 14.4696 2 15V20C2 20.5304 2.21071 21.0391 2.58579 21.4142C2.96086 21.7893 3.46957 22 4 22H20C20.5304 22 21.0391 21.7893 21.4142 21.4142C21.7893 21.0391 22 20.5304 22 20V15C22 14.4696 21.7893 13.9609 21.4142 13.5858C21.0391 13.2107 20.5304 13 20 13ZM12 16C12.552 16 13 15.552 13 15C13 14.448 12.552 14 12 14C11.448 14 11 14.448 11 15C11 15.552 11.448 16 12 16ZM16 19C16.552 19 17 18.552 17 18C17 17.448 16.552 17 16 17C15.448 17 15 17.448 15 18C15 18.552 15.448 19 16 19ZM8 19C8.552 19 9 18.552 9 18C9 17.448 8.552 17 8 17C7.448 17 7 17.448 7 18C7 18.552 7.448 19 8 19Z" fill="#8B4513"/>
+                </svg>
+                <h1>Dogs of Loyalty</h1>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="index.html#stories">Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Story Hero -->
+    <section class="story-hero">
+        <img src="https://images.pexels.com/photos/32458909/pexels-photo-32458909.jpeg" 
+             alt="Lifeguard dog saving swimmer at beach" 
+             class="story-hero-image">
+        <div class="story-hero-content">
+            <h1>Beach Guardian: Sandy's Ocean Rescue</h1>
+            <p>When a riptide pulled a young swimmer away from shore, a Newfoundland's lifeguard training and incredible strength turned a tragedy into a miracle.</p>
+        </div>
+    </section>
+
+    <!-- Story Content -->
+    <section class="section">
+        <div class="container">
+            <div class="story-content">
+                <p class="section-subtitle" style="text-align: left; margin-bottom: var(--spacing-xl);">
+                    On a sunny July afternoon at Ocean View Beach, families enjoyed the perfect summer day. Among them was the Miller family—Mark, Sarah, and their 8-year-old daughter Emma. What began as a day of fun in the sun would soon become a terrifying ordeal that tested the limits of human and canine courage.
+                </p>
+                
+                <p>Emma was playing in the shallow water when she suddenly found herself caught in a powerful riptide. Despite being a strong swimmer for her age, the relentless pull of the current quickly overpowered her small frame. Within moments, she was being dragged away from the shore, her panicked cries lost in the beach's ambient noise.</p>
+                
+                <div class="story-quote">
+                    "Time seemed to slow down. I remember watching my daughter being pulled farther and farther away, knowing I couldn't reach her in time. That feeling of helplessness is something no parent should ever experience." - Mark Miller
+                </div>
+                
+                <p>Mark and Sarah were momentarily distracted setting up their beach umbrella when they noticed Emma was no longer where they last saw her. Scanning the water, Sarah's heart stopped as she spotted Emma's arms flailing helplessly, already several dozen yards from shore and moving farther away by the second.</p>
+                
+                <p>"Emma!" Mark screamed, racing toward the water. "She's caught in a riptide!" he yelled to nearby lifeguards, who immediately sprang into action. But the current was strong, and Emma was drifting quickly into deeper water.</p>
+                
+                <p>As the lifeguards battled the powerful current, another hero was about to emerge. Sandy, a 150-pound Newfoundland owned by local resident and retired Coast Guard officer Jim Hanson, had been patrolling the beach with her owner. Newfoundlands are renowned for their water rescue abilities, with webbed feet, a water-resistant double coat, and incredible strength. Sandy had been specially trained in water rescue techniques since she was a puppy.</p>
+                
+                <p>Jim had noticed the commotion and immediately understood the gravity of the situation. "Sandy, rescue!" he commanded, pointing toward Emma. Without hesitation, the massive dog plunged into the turbulent water.</p>
+                
+                <p>What happened next left beachgoers in awe. Sandy moved through the water with surprising speed and agility, her powerful strokes cutting through the waves. She reached Emma in under a minute, far faster than the human lifeguards could manage in the treacherous conditions.</p>
+                
+                <div class="story-quote">
+                    "Newfoundlands have an instinctive understanding of water rescue," Jim later explained. "They're trained to approach distressed swimmers from behind and allow the person to grab onto their flotation device or harness. Sandy knew exactly what to do."
+                </div>
+                
+                <p>Emma, exhausted and terrified, felt something large and powerful brush against her. Through her panic, she recognized it was a dog. Remembering water safety lessons from school, she managed to grab onto Sandy's specialized rescue harness, designed specifically for this purpose.</p>
+                
+                <p>With Emma secure, Sandy turned back toward shore. Despite the girl's weight and the powerful riptide still pulling against them, Sandy's powerful build and swimming prowess allowed her to make steady progress. The crowd on the beach watched in stunned silence as the massive dog battled the elements, slowly but surely bringing Emma back to safety.</p>
+                
+                <p>When they finally reached the shore, Emma was coughing up water but conscious and alert. The Millers rushed to their daughter, embracing her in tearful relief before turning to thank Sandy and Jim.</p>
+                
+                <div class="story-quote">
+                    "I'll never forget the moment I saw that magnificent dog emerge from the waves with my daughter. It was like something out of a movie. Sandy wasn't just a pet that day; she was a guardian angel." - Sarah Miller
+                </div>
+                
+                <p>News of Sandy's heroic rescue spread quickly through the coastal community and beyond. The local newspaper featured her story on the front page, and a video taken by a beachgoer went viral on social media, garnering millions of views.</p>
+                
+                <p>The Millers maintained a close relationship with Jim and Sandy after the incident. Emma developed a special bond with the dog who saved her life, often visiting her and helping with her training exercises. "Sandy gave me back my daughter," Mark Miller said in an interview. "There's no way to adequately thank someone—or some dog—for that."</p>
+                
+                <p>Sandy's rescue highlighted the incredible potential of properly trained working dogs. Following the incident, Jim established a local water rescue dog training program, using Sandy as the primary instructor and demonstration dog. The program has since trained dozens of dogs and their handlers in water rescue techniques, potentially saving countless lives in the future.</p>
+                
+                <p>For Emma, now a teenager, the experience instilled a lifelong passion for water safety and animal welfare. She volunteers at the local animal shelter and hopes to become a marine biologist. "Sandy showed me that animals have incredible capacities for courage and compassion," Emma said in a recent interview. "She inspired me to want to protect both animals and the oceans they live in."</p>
+                
+                <p>Sandy continued her water rescue work until her retirement at age 10. She received numerous awards for her bravery, including the American Humane Association's Hero Dog Award. Even in retirement, she remained a beloved figure in her community, often visiting schools to teach children about water safety and the extraordinary capabilities of rescue animals.</p>
+                
+                <p>The story of Sandy's ocean rescue serves as a powerful reminder of the unbreakable bond between humans and dogs, and the incredible things that can be accomplished through proper training and mutual trust. On that fateful day at Ocean View Beach, a Newfoundland's natural instincts, specialized training, and unwavering courage combined to save a child's life and create a bond that would last a lifetime.</p>
+                
+                <div class="story-navigation">
+                    <a href="story7.html" class="story-nav-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        Previous Story
+                    </a>
+                    <a href="story9.html" class="story-nav-btn">
+                        Next Story
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="related-stories">
+                    <h3>More Stories of Canine Heroes</h3>
+                    <div class="grid grid-3">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/7196015/pexels-photo-7196015.jpeg" 
+                                 alt="Search and rescue dog in action" 
+                                 class="image-story">
+                            <div class="card-body">
+                                <h4>Against Time: Shadow's Earthquake Mission</h4>
+                                <p>A Border Collie's extraordinary sense of smell located survivors after a devastating earthquake.</p>
+                                <a href="story9.html" class="read-more">Read Story →</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/18643221/pexels-photo-18643221.jpeg" 
+                                 alt="Service dog assisting disabled owner" 
+                                 class="image-story">
+                            <div class="card-body">
+                                <h4>More Than a Companion: Cooper's Daily Miracles</h4>
+                                <p>A service dog's unwavering support brought healing to a veteran with PTSD.</p>
+                                <a href="story10.html" class="read-more">Read Story →</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/14610282/pexels-photo-14610282.jpeg" 
+                                 alt="Medical detection dog at work" 
+                                 class="image-story">
+                            <div class="card-body">
+                                <h4>A Sixth Sense: Daisy's Life-Saving Nose</h4>
+                                <p>A Labrador's ability to detect cancer cells led to early diagnoses that saved numerous lives.</p>
+                                <a href="story11.html" class="read-more">Read Story →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Dogs of Loyalty</h3>
+                    <p style="color: #E5E5E5; margin-top: var(--spacing-md);">Celebrating the extraordinary bond between humans and dogs through inspiring true stories and proven training methods.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#products">Training Products</a></li>
+                        <li><a href="index.html#stories">Loyalty Stories</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Popular Stories</h3>
+                    <ul>
+                        <li><a href="story1.html">The Hospital Vigil</a></li>
+                        <li><a href="story2.html">Mountain Hero</a></li>
+                        <li><a href="story3.html">Healing Hearts</a></li>
+                        <li><a href="story8.html">Beach Guardian</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Training Resources</h3>
+                    <ul>
+                        <li><a href="product1.html">Secrets to Dog Training</a></li>
+                        <li><a href="product2.html">Brain Training for Dogs</a></li>
+                        <li><a href="product3.html">Housetraining Any Dog</a></li>
+                        <li><a href="contact.html">Custom Training Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Dogs of Loyalty. All rights reserved. | Designed with ❤️ for dog lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

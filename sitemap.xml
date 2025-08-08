@@ -1,50 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/</loc>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product1.html</loc>
-</url>
-
-<url>
-  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product2.html</loc>
-</url>
-
-<url>
-  <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product3.html</loc>
-</url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story1.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story2.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story3.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story4.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story5.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story6.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story7.html</loc>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product1.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product2.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/product3.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story1.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story2.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story3.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story4.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story5.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story6.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story7.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story8.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story9.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story10.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/story11.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mdhdj.github.io/Dogs-of-Loyalty/contact.html</loc>
+        <priority>0.6</priority>
+    </url>
 </urlset>
