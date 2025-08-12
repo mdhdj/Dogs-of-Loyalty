@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:;">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 
     <title>Brain Training for Dogs | Dogs of Loyalty</title>
     <meta name="description" content="Unlock your dog's intelligence with scientifically-proven cognitive exercises that strengthen your bond and improve behavior.">
+<meta name="keywords" content="Brain Training for Dogs | Dogs of Loyalty, weight loss, natural weight loss, diet, health">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brain Training for Dogs | Dogs of Loyalty">
+<meta property="og:description" content="Unlock your dog's intelligence with scientifically-proven cognitive exercises that strengthen your bond and improve behavior.">
+<meta property="og:url" content="https://natural-weight-loss.com/product2.html">
+<meta property="og:image" content="https://natural-weight-loss.com/images/og-image.jpg">
+<link rel="canonical" href="https://natural-weight-loss.com/product2.html">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -37,7 +51,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <img src="https://images.pexels.com/photos/5705543/pexels-photo-5705543.jpeg" 
+        <img loading="lazy" src="https://images.pexels.com/photos/5705543/pexels-photo-5705543.jpeg" 
              alt="Intelligent dog solving puzzle challenge" 
              class="hero-image">
         <div class="hero-content">
@@ -278,7 +292,7 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script>
+    <script defer>
         // Mobile menu toggle
         document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
             document.querySelector('.nav-links').classList.toggle('active');

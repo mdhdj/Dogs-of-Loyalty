@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:;">
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="index, follow">
 
   <title>Contact Us | Dogs of Loyalty</title>
+<meta name="keywords" content="Contact Us | Dogs of Loyalty, weight loss, natural weight loss, diet, health">
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -65,6 +69,16 @@
       display: block;
     }
   </style>
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | Dogs of Loyalty">
+<meta property="og:description" content="Learn about Contact Us | Dogs of Loyalty for natural weight loss">
+<meta property="og:url" content="https://natural-weight-loss.com/contact.html">
+<meta property="og:image" content="https://natural-weight-loss.com/images/og-image.jpg">
+<link rel="canonical" href="https://natural-weight-loss.com/contact.html">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -95,7 +109,7 @@
         <h1>Contact Us</h1>
         <p>Have questions about our training programs or want to share your own loyalty story? We'd love to hear from you!</p>
         
-        <img src="https://images.pexels.com/photos/11096735/pexels-photo-11096735.jpeg" alt="Happy dog with owner" class="contact-image">
+        <img loading="lazy" src="https://images.pexels.com/photos/11096735/pexels-photo-11096735.jpeg" alt="Happy dog with owner" class="contact-image">
         
         <form class="contact-form" id="contactForm">
           <div class="form-group">
@@ -181,7 +195,7 @@
     <i class="fas fa-arrow-up"></i>
   </button>
 
-  <script>
+  <script defer>
     // Mobile menu toggle
     document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
         document.querySelector('.nav-links').classList.toggle('active');
