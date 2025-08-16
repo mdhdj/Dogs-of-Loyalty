@@ -23,31 +23,31 @@
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <div class="container">
-            <div class="nav-container">
+            <div class="navbar-content">
                 <a href="index.html" class="logo">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C9.243 2 7 4.243 7 7C7 9.757 9.243 12 12 12C14.757 12 17 9.757 17 7C17 4.243 14.757 2 12 2ZM9 7C9 8.657 10.343 10 12 10C13.657 10 15 8.657 15 7C15 5.343 13.657 4 12 4C10.343 4 9 5.343 9 7Z" fill="currentColor"/>
-                        <path d="M2 15C2 13.895 2.895 13 4 13H20C21.105 13 22 13.895 22 15V20C22 21.105 21.105 22 20 22H4C2.895 22 2 21.105 2 20V15ZM4 15H20V17H4V15Z" fill="currentColor"/>
+                        <path d="M12 2C9.243 2 7 4.243 7 7C7 9.757 9.243 12 12 12C14.757 12 17 9.757 17 7C17 4.243 14.757 2 12 2ZM12 9C10.343 9 9 8.157 9 7C9 5.843 10.343 5 12 5C13.657 5 15 5.843 15 7C15 8.157 13.657 9 12 9Z" fill="#8B4513"/>
+                        <path d="M20 13H4C3.46957 13 2.96086 13.2107 2.58579 13.5858C2.21071 13.9609 2 14.4696 2.58579 14.4696C2 15V20C2 20.5304 2.21071 21.0391 2.58579 21.4142C2.96086 21.7893 3.46957 22 4 22H20C20.5304 22 21.0391 21.7893 21.4142 21.4142C21.7893 21.0391 22 20.5304 22 20V15C22 14.4696 21.7893 13.9609 21.4142 13.5858C21.0391 13.2107 20.5304 13 20 13ZM12 16C12.552 16 13 15.552 13 15C13 14.448 12.552 14 12 14C11.448 14 11 14.448 11 15C11 15.552 11.448 16 12 16ZM16 19C16.552 19 17 18.552 17 18C17 17.448 16.552 17 16 17C15.448 17 15 17.448 15 18C15 18.552 15.448 19 16 19ZM8 19C8.552 19 9 18.552 9 18C9 17.448 8.552 17 8 17C7.448 17 7 17.448 7 18C7 18.552 7.448 19 8 19Z" fill="#8B4513"/>
                     </svg>
                     <h1>Dogs of Loyalty</h1>
                 </a>
-                <nav class="nav-menu">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#products">Training Products</a></li>
-                        <li><a href="index.html#stories">Loyalty Stories</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <div class="nav-actions">
-                    </div>
-                </nav>
-                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#stories">Stories</a></li>
+                    <li><a href="index.html#products">Training</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
-    </header>
+    </nav>
 
     <!-- FAQ Content -->
     <main class="main">
@@ -160,16 +160,6 @@
                             <h3>Do you have a physical book or DVD option?</h3>
                             <p>Currently, all our training materials are available digitally for immediate access. Digital format allows us to keep our prices affordable while providing the most up-to-date information. However, you can print the manuals if you prefer a physical copy.</p>
                         </div>
-                        
-                        <div class="faq-contact">
-                            <h2>Still Have Questions?</h2>
-                            <p>If you couldn't find an answer to your question, please don't hesitate to contact us:</p>
-                            <div class="contact-details" style="margin-top: var(--space-4);">
-                                <p><strong>Email:</strong> support@dogsofloyalty.com</p>
-                                <p><strong>Response Time:</strong> Within 24-48 business hours</p>
-                                <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: var(--space-4);">Contact Us</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -184,12 +174,6 @@
                     <div class="brand-section">
                         <h2 class="logo-text">Dogs of Loyalty<span>Stories & Training Solutions</span></h2>
                         <p class="footer-description">Heartwarming true stories and expert dog training solutions to strengthen the bond between you and your canine companion.</p>
-                        <div class="footer-social">
-                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="footer-column">
@@ -228,6 +212,33 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
